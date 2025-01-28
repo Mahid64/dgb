@@ -90,7 +90,7 @@ router.post('/submit', validateFormData, (req, res) => {
                               console.error('Error inserting record:', err);
                               return res.status(500).send('Internal Server Error');
                           }
-                          res.redirect(`./1.pdf`);
+                          res.redirect(`./01.2025.pdf`);
                       });
                               
         
